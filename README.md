@@ -2,7 +2,7 @@
 #### Video Demo:  <URL HERE>
 #### Description:
 
-For this project, I decided to use React jsx. Everything below in this readme file is included by default upon creating a React app. However, here at the top, I will explain my project.
+For this project, I decided to use React jsx. Everything below "Getting Started with Create React App" in this readme file is included by default upon creating a React app. However, here at the top, I will explain my project.
 
 I recently learned about API's and wanted to create a project that uses an API to fetch some data to be used in some way. I did some searching on the web to find some free API's and came across The Dog API. When I saw that the DOG API website included data that was sorted by breed as well as multiple pictures per breed, I got the idea to create a web-based application that fetches x number of pictures (can be inputted by the user) of a specific breed (can also be selected by the user) and displays the pictures in the browser. This is achieved on the home page (MainApp.jsx).
 
