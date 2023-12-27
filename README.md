@@ -1,5 +1,7 @@
-# Dog API
-#### Video Demo:  <URL HERE>
+# The Dog API
+
+#### Video Demo: <https://youtu.be/-qF0OrmZQMk>
+
 #### Description:
 
 For this project, I decided to use React jsx. Everything below "Getting Started with Create React App" in this readme file is included by default upon creating a React app. However, here at the top, I will explain my project.
@@ -10,15 +12,13 @@ To display the pictures on the MainApp page, the user must first press the "Load
 
 Because of the nature of creating a react app (many files are created for you to help get you started), the only files I created myself are within the "components" folder. This folder contains files for four components: AllDogs.jsx, Footer.jsx, Header.jsx, and MainApp.jsx. MainApp is explained above in the previous paragraph. However, Header and Footer are constantly displayed even when the content of the main page changes upon clicking the "All Dogs" link. This link renders the content of AllDogs.jsx into the browser while keeping the Header and Footer at the top and bottom. The Header and Footer will also stay when returning to the Home page (MainApp). The function of the AllDogs page is that it displays one picture per breed in the database. There is something like 106 breeds in the database. Therefore the AllDogs page fetches one random picture per breed and displays them in the browser.
 
-* I also included a link to the Dog API website in the header from which I fetched the data for this application.
+- I also included a link to the Dog API website in the header from which I fetched the data for this application.
 
 The only other files where I made changes are in App.js and index.css. App.js is made up of a router which takes care of changing pages between MainApp and AllDogs while maintaining the Header and Footer at the top and bottom of the webpage at all times. index.css is where I included my css code for styling the website. The rest of the files do not directly affect the functioning of the website and therefore I did not interact with them at all (they are created by default upon creating a react app).
 
 A quick note on the css styling used in my index.css file. I decided to keep the colors minimalist (black, grey, and white) to place focus on the pictures rather than the rest of the site. I also used things like "display: flex" and "flex-wrap: wrap" on all of the components so that the web page is responsive to different sizes. For example, in full desktop browser size, the pictures will typically display in rows of 2-4 pictures. However, if the browser size is reduced, the flex-wrap alows them to be reduced to rows of one.
 
 I am sure you are familiar with running React applications. Though if you are not, please see the below terminal commands which will show you how to launch the application.
-
-
 
 # Getting Started with Create React App
 
