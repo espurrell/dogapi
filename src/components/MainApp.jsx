@@ -26,10 +26,6 @@ const MainApp = () => {
     e.preventDefault();
     // funtion to load specified number of pics of the selected breed
 
-    // const pics = document.getElementById("pics");
-    // setNumberOfPictures(pics.value);
-    // console.log(numberOfPictures);
-
     try {
       const res = await fetch(
         `https://dog.ceo/api/breed/${selectedBreed}/images/random/${numberOfPictures}`
@@ -66,6 +62,7 @@ const MainApp = () => {
               </option>
             ))}
           </select>
+          {/* Why is the button type 'submit'? Can it be changed to 'button'? */}
           <button type="submit" onClick={handleLoadBreeds}>
             Load the Breeds
           </button>
